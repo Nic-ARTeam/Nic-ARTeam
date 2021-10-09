@@ -1,7 +1,7 @@
-.vs/
-Library/
-Logs/
-Packages/
-ProjectSettings/
-UserSettings/
-Temp/
+app/.vs/
+app/Library/
+app/Logs/
+app/Packages/
+app/ProjectSettings/
+app/UserSettings/
+app/Temp/
