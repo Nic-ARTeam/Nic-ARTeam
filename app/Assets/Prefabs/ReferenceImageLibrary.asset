@@ -14,16 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GuidLow: 5664721752062361483
   m_GuidHigh: 12702472026373107104
-  m_DataStore:
-    m_Storage: []
   m_Images:
   - m_SerializedGuid:
       m_GuidLow: 5342460513639402384
       m_GuidHigh: 5887030781086798482
     m_SerializedTextureGuid:
-      m_GuidLow: 17029331638662317882
-      m_GuidHigh: 4571636106212767465
-    m_Size: {x: 0.07, y: 0.080034494}
+      m_GuidLow: 9967737462843067957
+      m_GuidHigh: 17274065401895395176
+    m_Size: {x: 0.07, y: 0.0729697}
     m_SpecifySize: 1
     m_Name: Heart
     m_Texture: {fileID: 0}
@@ -31,9 +29,9 @@ MonoBehaviour:
       m_GuidLow: 5557778151970023938
       m_GuidHigh: 7621935576507817404
     m_SerializedTextureGuid:
-      m_GuidLow: 3716702060361302485
-      m_GuidHigh: 9444664544044803547
-    m_Size: {x: 0.06, y: 0.06}
+      m_GuidLow: 478708289370251484
+      m_GuidHigh: 17153152971424361867
+    m_Size: {x: 0.06, y: 0.07998421}
     m_SpecifySize: 1
     m_Name: digestion
     m_Texture: {fileID: 0}
@@ -41,9 +39,29 @@ MonoBehaviour:
       m_GuidLow: 5763896599860012683
       m_GuidHigh: 4852921798420620464
     m_SerializedTextureGuid:
-      m_GuidLow: 9936160854840632752
-      m_GuidHigh: 3183427184325078104
-    m_Size: {x: 0.1, y: 0.12324219}
+      m_GuidLow: 9967737462843067957
+      m_GuidHigh: 17274065401895395176
+    m_Size: {x: 0.1, y: 0.10424243}
     m_SpecifySize: 1
     m_Name: kidney
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5575240965765938926
+      m_GuidHigh: 5094129783375938991
+    m_SerializedTextureGuid:
+      m_GuidLow: 9967737462843067957
+      m_GuidHigh: 17274065401895395176
+    m_Size: {x: 0.038372092, y: 0.04}
+    m_SpecifySize: 1
+    m_Name: Caravel
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5064153375095973474
+      m_GuidHigh: 8419532847965126579
+    m_SerializedTextureGuid:
+      m_GuidLow: 5234346127429183948
+      m_GuidHigh: 221444139028818219
+    m_Size: {x: 0.074984126, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Earth
     m_Texture: {fileID: 0}
