@@ -1,3 +1,5 @@
-Nic-Ar Team Project
+# Base folder for models and img trackers
 
-Aumented Reality
+### Current models supported 
+
+- Caravel
