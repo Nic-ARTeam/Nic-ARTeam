@@ -1,0 +1,7 @@
+app/.vs/
+app/Builds/
+app/Library/
+app/Logs/
+app/Packages/
+app/ProjectSettings/
+app/UserSettings/
