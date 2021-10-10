@@ -2,11 +2,24 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
 public class ARPlaceTrackedImages : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject panel_Welcome;
+
+    [SerializeField]
+    private Button button_Start;
+
+    [SerializeField]
+    private Button button_Quit;
+
+    [SerializeField]
+    private Text imageTrackedText;
+
     // Cache AR tracked images manager from ARCoreSession
     private ARTrackedImageManager _trackedImagesManager;
 
@@ -21,9 +34,20 @@ public class ARPlaceTrackedImages : MonoBehaviour
     private string logText;
         
     void Awake()
-    {
+    {   
+        // Adding callbacks
+        button_Start.onClick.AddListener(StartInterface);
+        button_Quit.onClick.AddListener(QuitInterface);
+
+        // Fixing components
+        Screen.orientation = ScreenOrientation.Portrait;
+        
+        // Instantiating components
         _trackedImagesManager = GetComponent<ARTrackedImageManager>();
     }
+
+    void StartInterface() => panel_Welcome.SetActive(false);
+    void QuitInterface() => Application.Quit();
 
     void OnEnable()
     {
