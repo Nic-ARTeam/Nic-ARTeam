@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 .vs/
 Builds/
+=======
+app/.vs/
+app/Builds/
+>>>>>>> integration-complete
 Library/
 Logs/
 Packages/
