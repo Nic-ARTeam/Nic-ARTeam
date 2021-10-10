@@ -309,9 +309,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58eae83cea1140d41965e9aff39d999e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel_Welcome: {fileID: 0}
+  button_Start: {fileID: 0}
+  button_Quit: {fileID: 0}
+  imageTrackedText: {fileID: 0}
   ArPrefabs:
   - {fileID: 935778486537790967, guid: 854d8ade6d758cd4e9bca0b3fae20628, type: 3}
   - {fileID: 114410, guid: f6f5203ed5ea2204d95508a9c981db2f, type: 3}
+  - {fileID: 174004, guid: 6478e3e782a118f45a402645660f05ef, type: 3}
+  - {fileID: 2907071144040637052, guid: 884b3147cfcdfe24889b24efa965af32, type: 3}
+  - {fileID: 107374, guid: c223b5254ae0cec4180d5af774d0d2b3, type: 3}
+  - {fileID: 45862502245180936, guid: 2d6d89b9019bbe94487abd48d94b3f83, type: 3}
+  - {fileID: 2295313400606593984, guid: 34fabf014335799419df6a91f07d7ac2, type: 3}
+  - {fileID: 180336, guid: a2d90428d4402a64ca9aa7ae580033f8, type: 3}
+  - {fileID: 4844823750196445821, guid: 8f2b9bb17e73d1d4f9e14cf6547bfdb7, type: 3}
+  - {fileID: 6524587665601987090, guid: fd4d8e84d5469f44fae6c8c140835e4c, type: 3}
 --- !u!114 &388525033
 MonoBehaviour:
   m_ObjectHideFlags: 0
