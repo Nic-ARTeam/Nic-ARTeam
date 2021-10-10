@@ -12,12 +12,6 @@ public class ARPlaceTrackedImages : MonoBehaviour
     private GameObject panel_Welcome;
 
     [SerializeField]
-    private Button button_Start;
-
-    [SerializeField]
-    private Button button_Quit;
-
-    [SerializeField]
     private Text imageTrackedText;
 
     // Cache AR tracked images manager from ARCoreSession
@@ -36,27 +30,26 @@ public class ARPlaceTrackedImages : MonoBehaviour
     void Awake()
     {   
         // Adding callbacks
-        button_Start.onClick.AddListener(StartInterface);
-        button_Quit.onClick.AddListener(QuitInterface);
 
-        // Fixing components
-        Screen.orientation = ScreenOrientation.Portrait;
+        /* button_Start.onClick.AddListener(StartInterface);
+        button_Quit.onClick.AddListener(QuitInterface); */
         
         // Instantiating components
         _trackedImagesManager = GetComponent<ARTrackedImageManager>();
+        ShowAndroidToastMessage("Instantiated TIM");
     }
 
-    void StartInterface() => panel_Welcome.SetActive(false);
-    void QuitInterface() => Application.Quit();
-
+    
     void OnEnable()
     {
         _trackedImagesManager.trackedImagesChanged += OnTrackedImagesChanged;
+        ShowAndroidToastMessage("Started Session");
     }
 
     void OnDisable()
     {
         _trackedImagesManager.trackedImagesChanged -= OnTrackedImagesChanged;
+        ShowAndroidToastMessage("Stoped Session");
     }
 
     private void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
