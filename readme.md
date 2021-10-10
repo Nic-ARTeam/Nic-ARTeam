@@ -3,3 +3,10 @@
 ### Current models supported 
 
 - Caravel
+- Earth
+- Capside (Virus)
+- Axe
+- Virus
+- Atom
+- Digestion
+- DNA
