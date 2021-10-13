@@ -1,12 +1,11 @@
-<<<<<<< HEAD
-.vs/
-Builds/
-=======
+## Editors
 app/.vs/
+app/.vscode
+
+## Builds
 app/Builds/
->>>>>>> integration-complete
-Library/
-Logs/
-Packages/
-ProjectSettings/
-UserSettings/
+
+## Temporary
+app/Logs
+app/Temp
+app/obj
