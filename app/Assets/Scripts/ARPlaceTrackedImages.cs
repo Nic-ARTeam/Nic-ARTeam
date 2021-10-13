@@ -29,8 +29,14 @@ public class ARPlaceTrackedImages : MonoBehaviour
         
     void Awake()
     {   
+        // Adding callbacks
+
+        /* button_Start.onClick.AddListener(StartInterface);
+        button_Quit.onClick.AddListener(QuitInterface); */
+        
         // Instantiating components
         _trackedImagesManager = GetComponent<ARTrackedImageManager>();
+        ShowAndroidToastMessage("Instantiated TIM");
     }
 
     
@@ -43,7 +49,7 @@ public class ARPlaceTrackedImages : MonoBehaviour
     void OnDisable()
     {
         _trackedImagesManager.trackedImagesChanged -= OnTrackedImagesChanged;
-        ShowAndroidToastMessage("Stopped Session");
+        ShowAndroidToastMessage("Stoped Session");
     }
 
     private void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
@@ -73,6 +79,7 @@ public class ARPlaceTrackedImages : MonoBehaviour
                             $"guid: {trackedImage.referenceImage.guid}";
                     
                     Debug.Log(logText);
+                    ShowAndroidToastMessage("Instantiated!");
                 }
             }
         }

@@ -1,7 +1,12 @@
+## Editors
 app/.vs/
+app/.vscode
+
+## Builds
 app/Builds/
-app/Library/
-app/Logs/
-app/Packages/
-app/ProjectSettings/
-app/UserSettings/
+
+## Temporary
+app/Logs
+app/Temp
+app/obj
+>>>>>>> integration-complete-end
