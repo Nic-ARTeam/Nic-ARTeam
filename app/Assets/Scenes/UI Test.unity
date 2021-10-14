@@ -387,7 +387,7 @@ GameObject:
   - component: {fileID: 495925661}
   - component: {fileID: 495925660}
   m_Layer: 0
-  m_Name: AR Camera
+  m_Name: ARCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -894,7 +894,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 120, y: 150}
-  m_SizeDelta: {x: 200, y: 200}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &726049257
 MonoBehaviour:
@@ -1211,7 +1211,7 @@ GameObject:
   - component: {fileID: 830354128}
   - component: {fileID: 830354127}
   m_Layer: 0
-  m_Name: AR Session
+  m_Name: ARSession
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1271,7 +1271,7 @@ GameObject:
   - component: {fileID: 869402583}
   - component: {fileID: 869402584}
   m_Layer: 0
-  m_Name: AR Session Origin
+  m_Name: SessionOrigin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1338,7 +1338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: 663f6258cc302da4c8677de3dc8afed1, type: 2}
+  m_SerializedLibrary: {fileID: 0}
   m_MaxNumberOfMovingImages: 1
   m_TrackedImagePrefab: {fileID: 0}
 --- !u!1 &1060601061
@@ -2185,7 +2185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8884c232f009b9f488360cf3078e05f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SessionOrigin: {fileID: 869402581}
+  Session: {fileID: 830354128}
   Interface_Panel: {fileID: 1444463211}
   Credits_Panel: {fileID: 1457025756}
   OriginCanvas: {fileID: 1874757544}
@@ -3400,9 +3400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33e265be06e71504fa83e4713a0aeaba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Session: {fileID: 869402581}
   Interface_Panel: {fileID: 1444463211}
-  OriginCanvas: {fileID: 1874757544}
   btn_Back: {fileID: 1994179530}
 --- !u!1 &1931553515
 GameObject:
@@ -3708,7 +3706,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 120, y: 150}
-  m_SizeDelta: {x: 200, y: 200}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1994179530
 MonoBehaviour:

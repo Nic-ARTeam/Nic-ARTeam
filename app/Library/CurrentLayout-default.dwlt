@@ -8,7 +8,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1366
     height: 685
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 507, y: 271}
-  m_MaxSize: {x: 14002, y: 10021}
+  m_MinSize: {x: 377, y: 121}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 60
+  controlID: 40
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -142,16 +142,16 @@ MonoBehaviour:
     y: 0
     width: 843
     height: 635
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 10}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 9}
   m_Panes:
   - {fileID: 9}
   - {fileID: 11}
   - {fileID: 10}
   - {fileID: 8}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -244,23 +244,23 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 842
-      height: 614
-    m_Scale: {x: 0.28425926, y: 0.28425926}
-    m_Translation: {x: 421, y: 307}
+      height: 593
+    m_Scale: {x: 0.27453703, y: 0.27453703}
+    m_Translation: {x: 420.99997, y: 296.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1481.0424
+      x: -1533.4907
       y: -1080
-      width: 2962.0847
+      width: 3066.9814
       height: 2160
     m_MinimalGUI: 1
-  m_defaultScale: 0.28425926
+  m_defaultScale: 0.27453703
   m_LastWindowPixelSize: {x: 842, y: 614}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -303,9 +303,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 489.5756, y: 933.9838, z: -1045.3156}
+    m_Target: {x: 505.6536, y: 853.7207, z: -1263.5323}
     speed: 2
-    m_Value: {x: 381.15176, y: 982.9364, z: -1026.1876}
+    m_Value: {x: 519.7595, y: 877.68005, z: -1258.6284}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -336,7 +336,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -354,11 +354,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: -0.000000006657127, y: 0.00000006869945, z: -0.000000016071727, w: -0.99999994}
   m_Size:
-    m_Target: 1182.3287
+    m_Target: 1300.8912
     speed: 2
-    m_Value: 1421.4276
+    m_Value: 1362.1898
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -421,22 +421,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Textures/AppLogos
+    - Packages/com.unity.xr.arfoundation/Runtime/AR
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Textures/AppLogos
+  - Packages/com.unity.xr.arfoundation/Runtime/AR
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\johnt\Documents\Unity\Projects\Nic-ARTeam\app
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d04e0000
-    m_LastClickedID: 20176
-    m_ExpandedIDs: 000000003c4e00005a4e000000ca9a3b
+    m_SelectedIDs: 406d0000
+    m_LastClickedID: 27968
+    m_ExpandedIDs: 0000000030420000426d0000446d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -464,7 +464,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c4e0000
+    m_ExpandedIDs: 0000000030420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -491,7 +491,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 8042000036420000a6400000a44000001243000000000000f27d0000fe4000003c810000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -516,7 +516,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 331.5}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 200
@@ -548,23 +548,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: dc990000
       m_LastClickedID: 0
-      m_ExpandedIDs: 52fbffff
+      m_ExpandedIDs: a2d7ffffbed7ffff9ad8ffffbad9ffffd6d9ffffb2daffff68dbffff84dbffff60dcffff42deffff5edeffff3adfffffe4dfffff00e0ffffdce0ffff86e1ffffa2e1ffff7ee2ffffece3ffff08e4ffffe4e4ffff00e6ffff1ce6fffff8e6ffffbee7ffffdae7ffffb6e8ffff74eaffff90eaffff6cebffff5eedffff7aedffff56eeffff5aefffff76efffff52f0fffffef0ffff1af1fffff6f1ffff66f3ffff82f3ffff5ef4ffffa2f5ffffbef5ffff9af6ffff2af8ffff46f8ffff22f9ffff52fbffffba400000ec4a0000a04f00008a5c000058620000ac620000c86200007a670000286c000056870000c6870000d29300002694000042940000f0980000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: ARSession
+        m_OriginalName: ARSession
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 34750
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
