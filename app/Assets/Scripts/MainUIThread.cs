@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
@@ -7,7 +5,7 @@ using UnityEngine.XR.ARFoundation;
 public class MainUIThread : MonoBehaviour
 {
     [SerializeField]
-    private ARSessionOrigin SessionOrigin;
+    private ARSession Session;
 
     [SerializeField]
     private GameObject Interface_Panel;
@@ -29,9 +27,8 @@ public class MainUIThread : MonoBehaviour
 
     private void Awake()
     {
-        SessionOrigin.enabled = false;
-        OriginCanvas.enabled = false;
         Credits_Panel.gameObject.SetActive(false);
+
         // Fixing components
         Screen.orientation = ScreenOrientation.Portrait;
     }
@@ -52,16 +49,22 @@ public class MainUIThread : MonoBehaviour
 
     }
 
+    private void SwitchSession(bool trigger)
+    {
+        OriginCanvas.enabled =  trigger;
+        Session.enabled = trigger;
+    }
+
     private void StartSession()
     {
-        SessionOrigin.enabled = true;
-        Interface_Panel.SetActive(false);
-        OriginCanvas.enabled = true;
+        SwitchSession(true);
+        Interface_Panel.gameObject.SetActive(false);
     }
 
     private void OnEnable()
     {
         SwitchBehaviour(true);
+        SwitchSession(false);
     }
 
     private void OnDisable()
@@ -71,13 +74,37 @@ public class MainUIThread : MonoBehaviour
 
     private void ShowCredits()
     {
-        Credits_Panel.SetActive(true);
-        Interface_Panel.SetActive(false);
-        OriginCanvas.enabled = false;
+        Credits_Panel.gameObject.SetActive(true);
+        Interface_Panel.gameObject.SetActive(false);
     }
 
     void QuitInterface()
     {
         Application.Quit();
+    }
+
+        /// <summary>
+    /// Show an Android toast message.
+    /// </summary>
+    /// <param name="message">Message string to show in the toast.</param>
+    private static void ShowAndroidToastMessage(string message)
+    {
+#if UNITY_ANDROID
+        using (var unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
+        {
+            var unityActivity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
+            if (unityActivity == null) return;
+            var toastClass = new AndroidJavaClass("android.widget.Toast");
+            unityActivity.Call("runOnUiThread", new AndroidJavaRunnable(() =>
+            {
+                // Last parameter = length. Toast.LENGTH_LONG = 1
+                using (var toastObject = toastClass.CallStatic<AndroidJavaObject>("makeText",
+                    unityActivity, message, 1))
+                {
+                    toastObject.Call("show");
+                }
+            }));
+        }
+#endif
     }
 }

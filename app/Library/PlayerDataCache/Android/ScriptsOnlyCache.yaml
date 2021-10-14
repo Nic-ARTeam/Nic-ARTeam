@@ -222,7 +222,7 @@ ScriptsOnlyBuild:
     className: ARPointCloudMeshVisualizer
   - hash:
       serializedVersion: 2
-      Hash: af1023a6b18854257dc2fdd505f986ea
+      Hash: 649462715c09b2649f94712fccf6ae6c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SessionThread
@@ -420,7 +420,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: bf87ba7d4d72450fc8b81440c38d48f6
+      Hash: 420b279f9881b9db14de5752d2ce8fb5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainUIThread
@@ -835,4 +835,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/UI Test.unity
-  playerPath: C:/Users/johnt/Documents/Unity/Projects/Nic-ARTeam/app/Builds/uitest.apk
+  playerPath: C:/Users/johnt/Documents/Unity/Projects/Nic-ARTeam/app/Builds/SessionFixed.apk

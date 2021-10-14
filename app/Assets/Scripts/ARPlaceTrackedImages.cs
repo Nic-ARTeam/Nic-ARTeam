@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -36,20 +35,17 @@ public class ARPlaceTrackedImages : MonoBehaviour
         
         // Instantiating components
         _trackedImagesManager = GetComponent<ARTrackedImageManager>();
-        ShowAndroidToastMessage("Instantiated TIM");
     }
 
     
     void OnEnable()
     {
         _trackedImagesManager.trackedImagesChanged += OnTrackedImagesChanged;
-        ShowAndroidToastMessage("Started Session");
     }
 
     void OnDisable()
     {
         _trackedImagesManager.trackedImagesChanged -= OnTrackedImagesChanged;
-        ShowAndroidToastMessage("Stoped Session");
     }
 
     private void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
