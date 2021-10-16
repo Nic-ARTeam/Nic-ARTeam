@@ -60,47 +60,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1646}
+      Script: {instanceID: 1652}
     - Class: 114
-      Script: {instanceID: 1742}
+      Script: {instanceID: 1748}
     - Class: 114
-      Script: {instanceID: 2056}
+      Script: {instanceID: 2062}
     - Class: 114
-      Script: {instanceID: 2236}
+      Script: {instanceID: 2242}
     - Class: 114
-      Script: {instanceID: 2584}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2622}
     - Class: 114
-      Script: {instanceID: 2704}
+      Script: {instanceID: 2710}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2930}
     - Class: 114
-      Script: {instanceID: 3138}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3210}
+      Script: {instanceID: 3216}
     - Class: 114
-      Script: {instanceID: 3250}
-    - Class: 114
-      Script: {instanceID: 3430}
+      Script: {instanceID: 3256}
     - Class: 114
       Script: {instanceID: 3436}
     - Class: 114
-      Script: {instanceID: 3440}
+      Script: {instanceID: 3442}
     - Class: 114
-      Script: {instanceID: 3562}
+      Script: {instanceID: 3446}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3568}
     - Class: 114
-      Script: {instanceID: 3678}
+      Script: {instanceID: 3674}
     - Class: 114
-      Script: {instanceID: 3902}
+      Script: {instanceID: 3684}
     - Class: 114
-      Script: {instanceID: 4176}
+      Script: {instanceID: 3908}
     - Class: 114
-      Script: {instanceID: 4244}
+      Script: {instanceID: 4182}
     - Class: 114
-      Script: {instanceID: 4902}
+      Script: {instanceID: 4250}
+    - Class: 114
+      Script: {instanceID: 4908}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -420,7 +420,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 420b279f9881b9db14de5752d2ce8fb5
+      Hash: 97bdfca88abbad0c59e8f882c99a9d7e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainUIThread
@@ -528,7 +528,7 @@ ScriptsOnlyBuild:
     className: CreditsThread
   - hash:
       serializedVersion: 2
-      Hash: 5810912edd042b504a86f2faba24aeb4
+      Hash: f3ad62ad1ec4f3bc8ad743f5e3d5a6fa
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ARPlaceTrackedImages
@@ -835,4 +835,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/UI Test.unity
-  playerPath: C:/Users/johnt/Documents/Unity/Projects/Nic-ARTeam/app/Builds/SessionFixed.apk
+  playerPath: C:/Users/johnt/Documents/Unity/Projects/Nic-ARTeam/app/Builds/aredu_rework.apk
