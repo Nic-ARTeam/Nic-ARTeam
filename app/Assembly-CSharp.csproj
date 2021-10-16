@@ -40,7 +40,6 @@
      <Compile Include="Assets\Scripts\MainUIThread.cs" />
      <Compile Include="Assets\Scripts\CreditsThread.cs" />
      <Compile Include="Assets\Scripts\ARPlaceTrackedImages.cs" />
-     <None Include="Assets\StreamingAssets\HiddenARCore\a9269965-5003-4651-b60f-92a2f85e3cf0.imgdb-imglist.txt" />
      <None Include="Assets\Fonts\README.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
