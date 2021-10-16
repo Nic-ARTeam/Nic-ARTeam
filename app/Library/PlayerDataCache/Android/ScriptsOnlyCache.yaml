@@ -853,4 +853,8 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/UI Test.unity
+<<<<<<< HEAD
   playerPath: C:/Users/Usuario/Desktop/Nic-ARTeam/app/Builds/aredululo.apk
+=======
+  playerPath: C:/Users/johnt/Documents/Unity/Projects/Nic-ARTeam/app/Builds/CompleteSession.apk
+>>>>>>> ac726aaa2c96c40db8e3b2262ca57af045b163dc
