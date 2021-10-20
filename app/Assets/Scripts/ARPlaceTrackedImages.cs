@@ -7,12 +7,6 @@ using UnityEngine.XR.ARSubsystems;
 
 public class ARPlaceTrackedImages : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject panel_Welcome;
-
-    [SerializeField]
-    private Text imageTrackedText;
-
     // Cache AR tracked images manager from ARCoreSession
     private ARTrackedImageManager _trackedImagesManager;
 
