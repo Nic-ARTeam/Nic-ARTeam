@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: QRs
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5738505424643255878
+  m_GuidHigh: 10112132069175766187
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5747700478109123837
+      m_GuidHigh: 16298797982866170782
+    m_SerializedTextureGuid:
+      m_GuidLow: 1919914619860367119
+      m_GuidHigh: 11503647704875669451
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Atom
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5753760616369638645
+      m_GuidHigh: 14914963039509200802
+    m_SerializedTextureGuid:
+      m_GuidLow: 2779892693714943872
+      m_GuidHigh: 17277945944185928057
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Axe
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5209626595549421262
+      m_GuidHigh: 8016276201055819931
+    m_SerializedTextureGuid:
+      m_GuidLow: 16488850772000102917
+      m_GuidHigh: 11634874464685199402
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Bow
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5014672976819994233
+      m_GuidHigh: 1231256831642693010
+    m_SerializedTextureGuid:
+      m_GuidLow: 3374499266507584613
+      m_GuidHigh: 2561766764791220795
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Capside
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4634301876851645078
+      m_GuidHigh: 8408784420172481411
+    m_SerializedTextureGuid:
+      m_GuidLow: 18056101799274289439
+      m_GuidHigh: 3989630100338559370
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: digestion
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5496139171727844136
+      m_GuidHigh: 3904989452613290931
+    m_SerializedTextureGuid:
+      m_GuidLow: 2032301142677132157
+      m_GuidHigh: 9343256058425152587
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Dna
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5659629846752409276
+      m_GuidHigh: 1156076428360530063
+    m_SerializedTextureGuid:
+      m_GuidLow: 6225101775937601292
+      m_GuidHigh: 3115460813332400360
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Earth
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5431799685503293591
+      m_GuidHigh: 5500688314151372962
+    m_SerializedTextureGuid:
+      m_GuidLow: 6036151913121711269
+      m_GuidHigh: 11193271054051850698
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Fungus
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5333472281553861371
+      m_GuidHigh: 9021775775023707071
+    m_SerializedTextureGuid:
+      m_GuidLow: 12944617044813412028
+      m_GuidHigh: 14654236498976916137
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Tree
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4866684450040853425
+      m_GuidHigh: 1708194615494072222
+    m_SerializedTextureGuid:
+      m_GuidLow: 12557164791656835334
+      m_GuidHigh: 436342664944698490
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Virus
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5035308164197382873
+      m_GuidHigh: 15976046702935884212
+    m_SerializedTextureGuid:
+      m_GuidLow: 16236850482258395082
+      m_GuidHigh: 14837150735910369672
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Caravel
+    m_Texture: {fileID: 0}

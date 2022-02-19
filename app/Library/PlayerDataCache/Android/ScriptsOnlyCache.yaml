@@ -19,6 +19,8 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
     - UnityEngine.XR.ARFoundation.ARTrackedImageManager
+    Unity.XR.ARSubsystems.dll:
+    - UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -49,9 +51,21 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -60,47 +74,49 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1646}
+      Script: {instanceID: 1648}
     - Class: 114
-      Script: {instanceID: 1742}
+      Script: {instanceID: 1744}
     - Class: 114
-      Script: {instanceID: 2056}
+      Script: {instanceID: 2058}
     - Class: 114
-      Script: {instanceID: 2236}
+      Script: {instanceID: 2238}
     - Class: 114
-      Script: {instanceID: 2584}
+      Script: {instanceID: 2586}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2618}
     - Class: 114
-      Script: {instanceID: 2704}
+      Script: {instanceID: 2706}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2926}
     - Class: 114
-      Script: {instanceID: 3138}
+      Script: {instanceID: 3140}
     - Class: 114
-      Script: {instanceID: 3210}
+      Script: {instanceID: 3212}
     - Class: 114
-      Script: {instanceID: 3250}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 3430}
+      Script: {instanceID: 3432}
     - Class: 114
-      Script: {instanceID: 3436}
+      Script: {instanceID: 3438}
     - Class: 114
-      Script: {instanceID: 3440}
+      Script: {instanceID: 3442}
     - Class: 114
-      Script: {instanceID: 3562}
+      Script: {instanceID: 3564}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3670}
     - Class: 114
-      Script: {instanceID: 3678}
+      Script: {instanceID: 3680}
     - Class: 114
-      Script: {instanceID: 3902}
+      Script: {instanceID: 3904}
     - Class: 114
-      Script: {instanceID: 4176}
+      Script: {instanceID: 4178}
     - Class: 114
-      Script: {instanceID: 4244}
+      Script: {instanceID: 4246}
     - Class: 114
-      Script: {instanceID: 4902}
+      Script: {instanceID: 4542}
+    - Class: 114
+      Script: {instanceID: 4904}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -108,6 +124,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 205
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -835,4 +853,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/UI Test.unity
-  playerPath: C:/Users/johnt/Documents/Unity/Projects/Nic-ARTeam/app/Builds/SessionFixed.apk
+  playerPath: C:/Workspace/Nic-ARTeam/app/Builds/aredu-fair.apk
